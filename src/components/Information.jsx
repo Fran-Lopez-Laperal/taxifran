@@ -1,7 +1,7 @@
 import cocina from '../assets/images/cocina.jpg'
 
 
-const Info = () => {
+const Information = () => {
     return (
         <div className=''>
             <section className="p-5 lg:flex lg:justify-center" >
@@ -78,4 +78,4 @@ const Info = () => {
     )
 }
 
-export default Info
+export default Information

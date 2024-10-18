@@ -2,7 +2,7 @@ import './App.css'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Home from './components/Home'
-import Info from './components/info'
+import Info from './components/Information'
 import NavBarMovil from './components/NavBarMovil'
 import Steps from './components/Steps'
 
