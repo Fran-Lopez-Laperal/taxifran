@@ -4,7 +4,7 @@ const Steps = () => {
     return (
         <div className='mt-64'>
             <figure className='flex justify-center items-center mb-64'>
-                <img className='absolute object-cover h-850 border opacity-80 w-full' src={salon} alt={salon} />
+                <img className='absolute object-cover h-850 border opacity-80 lg:w-full' src={salon} alt={salon} />
                 <div className='relative h-auto w-320 bg-gray-200 bg-opacity-70 shadow-lg p-7 rounded'>
                     <p className='text-3xl'>Nuestra metodología de trabajo</p>
                     <p className='font-light text-lg mt-5 p-3'>
