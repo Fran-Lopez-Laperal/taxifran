@@ -1,6 +1,6 @@
 import { useState } from "react"
 import './NavBarMovil.css'
-import LinkNav from "./linkNav"
+import LinkNav from "./LinkNav"
 
 const NavBarMovil = () => {
 

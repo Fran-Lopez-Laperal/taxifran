@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 
 const LinkNav = ({ nameLink }) => {
   return (
@@ -5,6 +6,8 @@ const LinkNav = ({ nameLink }) => {
   );
 };
 
-
+LinkNav.propTypes = {
+  nameLink: PropTypes.string.isRequired,
+};
 
 export default LinkNav;
