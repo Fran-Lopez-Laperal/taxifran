@@ -31,7 +31,7 @@ const Home = () => {
               </div>
             </section>
           </article>
-          <Button buttonname="CONTACTO" position="absolute" margin="bottom-10" side="left-2/3"/>
+          <Button buttonname="CONTACTO" position="absolute" margin="bottom-10" side="left-2/3" width="w-36" height="h-10"/>
         </section>
 
       </section>

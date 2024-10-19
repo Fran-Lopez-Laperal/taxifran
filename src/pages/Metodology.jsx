@@ -1,11 +1,7 @@
 import salon from '../assets/images/cocina2.jpg'
 import Button from '../components/Button'
-import metod1 from '../assets/images/metod1.jpg'
-import metod2 from '../assets/images/metod2.jpg'
-import metod3 from '../assets/images/metod3.jpg'
-import metod4 from '../assets/images/metod4.jpg'
-import metod5 from '../assets/images/metod5.jpg'
-import CardsMetod from '../components/CardsMetod'
+import Metods from '../components/Metods'
+
 
 const Metodology = () => {
     return (
@@ -21,46 +17,15 @@ const Metodology = () => {
                     </p>
                 </div>
                 <section>
-                    <Button buttonname="CONTACTO" margin="mt-10" side="ml-72" />
+                    <Button buttonname="CONTACTO" margin="mt-10" side="ml-72"  width='w-36' height='h-10' />
                 </section>
 
             </figure>
 
 
 
-            <section>
-                <CardsMetod step='1' img={metod1} titlecard='Visita inicial' textcard='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, omnis.
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, omnis
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, omnis
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, omnis'
-
-                />
-                <CardsMetod step='2' img={metod2} titlecard='Proyecto y ppresupuesto' textcard='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, omnis.
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, omnis
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, omnis
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, omnis'
-
-                />
-                <CardsMetod step='3' img={metod3} titlecard='Formalización del contrato de obra
-' textcard='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, omnis.
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, omnis
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, omnis
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, omnis'
-
-                />
-                <CardsMetod step='4' img={metod4} titlecard='Tramitación de licencias' textcard='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, omnis.
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, omnis
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, omnis
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, omnis'
-
-                />
-                <CardsMetod step='5' img={metod5} titlecard='Ejecución de la obra' textcard='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, omnis.
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, omnis
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, omnis
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, omnis'
-
-                />
-
+            <section className='mt-[-110px]'>
+               <Metods/>
             </section>
 
         </div>

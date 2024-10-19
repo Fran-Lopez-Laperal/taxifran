@@ -1,3 +1,5 @@
+import Button from "../components/Button"
+
 const Contact = () => {
     return (
         <>
@@ -20,6 +22,7 @@ const Contact = () => {
                         <input className="mb-3 border-2 rounded hover:border-gray-500 border-gray-300 transition-all duration-500 w-48" type="text" name="" id="" />
                         <input className="mb-3 border-2 rounded hover:border-gray-500 border-gray-300 transition-all duration-500 w-48" type="text" name="" id="" />
                         <input className="border-2 rounded hover:border-gray-500 border-gray-300 transition-all duration-500 w-48 h-20" type="text" name="" id="" />
+                        <Button buttonname="ENVIAR" height="h-7" width="w-24" margin="mt-5" side="ml-44"/>
                     </section>
                 </section>
 
