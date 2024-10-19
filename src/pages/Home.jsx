@@ -1,4 +1,5 @@
 import image1 from "../assets/images/layout.jpg"
+import Button from "../components/Button"
 
 const Home = () => {
   return (
@@ -23,18 +24,14 @@ const Home = () => {
                 <p className="lg:mr-4">únicos, renovamos tu |</p>
                 <p className="">vida</p>
               </div>
-              <div className="text-xl font-extralight flex flex-col items-end tracking-[0.25rem] lg:flex lg:flex-row lg:justify-end">
+              <div className="text-xl  font-extralight flex flex-col items-end tracking-[0.25rem] lg:flex lg:flex-row lg:justify-end">
                 <p className="lg:mr-4">Todo tipo de</p>
                 <p className="lg:mr-4">reformas para</p>
                 <p>tu espacio</p>
               </div>
             </section>
           </article>
-          <section className="absolute bottom-10 left-2/3 transform -translate-x-1/2">
-            <button className="border shadow-lg bg-slate-300 w-36 h-10 hover:bg-slate-200 hover:before:content-['\2192'] hover:before:absolute hover:before:right-[10px] hover:before:text-black transition-all duration-1000 ease-in-out">
-              CONTACTO
-            </button>
-          </section>
+          <Button buttonname="CONTACTO" position="absolute" margin="bottom-10" side="left-2/3"/>
         </section>
 
       </section>

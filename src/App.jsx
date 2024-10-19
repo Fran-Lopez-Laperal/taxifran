@@ -1,10 +1,10 @@
 import './App.css'
-import Contact from './components/Contact'
+import Contact from './pages/Contact'
 import Footer from './components/Footer'
-import Home from './components/Home'
-import Info from './components/Information'
+import Information from './components/Information'
 import NavBarMovil from './components/NavBarMovil'
-import Steps from './components/Steps'
+import Home from './pages/Home'
+import Metodology from './pages/Metodology'
 
 function App() {
 
@@ -13,9 +13,9 @@ function App() {
       <NavBarMovil />
       <div>
         <Home />
-        <Info/>
-        <Steps/>
-        <Contact/>
+        <Information/>
+        <Metodology />
+        <Contact />
       </div>
       <div>
         <Footer />
