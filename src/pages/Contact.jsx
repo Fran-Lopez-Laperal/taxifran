@@ -2,9 +2,9 @@ import Button from "../components/Button"
 
 const Contact = () => {
     return (
-        <>
+        <div id="contact">
             <div className="h-auto bg-colorcontact flex justify-center">
-                <section className="mb-10 mt-10 w-72 shadow-lg p-4 bg-gradient-to-t from-color2contact to-transparent ">
+                <section className="mb-10 mt-10 w-72 shadow-lg p-4 bg-gradient-to-t from-color2contact to-transparent lg:w-1250">
                     <section className="p-10">
                         <article>
                             <section className="">
@@ -28,7 +28,7 @@ const Contact = () => {
 
             </div>
 
-        </>
+        </div>
     )
 }
 

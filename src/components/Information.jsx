@@ -63,9 +63,9 @@ const Information = () => {
 
                         </article>
                     </section>
-                    <section className='w-full flex justify-center mt-10 hover:grayscale duration-300'>
-                        <figure>
-                            <img className='h-96 w-80 rounded-sm lg:h-750 lg:w-600 lg:shadow-md lg:rounded-md' src={cocina} alt={cocina} />
+                    <section className='w-full flex justify-center mt-10'>
+                        <figure className='shadow-black shadow-lg'>
+                            <img className='h-96 w-80 rounded-sm  lg:h-750 lg:w-600 ' src={cocina} alt={cocina} />
                         </figure>
                     </section>
                 </article>
