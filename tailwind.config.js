@@ -11,6 +11,7 @@ export default {
     extend: {
       fontSize: {
         '200': '190px',
+        '150': '150px',
       },
       width: {
 

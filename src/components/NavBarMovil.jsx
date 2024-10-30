@@ -24,7 +24,7 @@ const NavBarMovil = () => {
             </button>
             {showMenu ?
               <section className="flex flex-col items-center">
-              <ul className='transition-all duration-500 ease-in-out mt-7 w-72 absolute shadow-md text-center border-t-2 border-black bg-white z-10'>
+              <ul className='transition-all duration-500 ease-in-out mt-7 w-full absolute shadow-md text-center border-t-2 border-black bg-white z-10'>
                   <LinkNav nameLink="Servicios" />
                   <LinkNav nameLink="Proyectos" />
                   <LinkNav nameLink="Contacto" />
