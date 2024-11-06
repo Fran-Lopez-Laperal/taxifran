@@ -5,6 +5,7 @@ import Information from './components/Information'
 import NavBarMovil from './components/NavBarMovil'
 import Home from './pages/Home'
 import Metodology from './pages/Metodology'
+import Whatsapp from './pages/Whatsapp'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <Information/>
         <Metodology />
         <Contact />
+        <Whatsapp/>
       </div>
       <div>
         <Footer />
