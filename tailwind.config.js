@@ -28,6 +28,8 @@ export default {
         '850': '850px'
       },
 
+    
+
       margin: {
         '260': '260px'
       },

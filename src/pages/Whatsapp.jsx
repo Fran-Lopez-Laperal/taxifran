@@ -1,7 +1,7 @@
 import whats from '../assets/images/5ae21cc526c97415d3213554.png'
 
 const Whatsapp = () => {
-    const phoneNumber = '677116137'; // 
+    const phoneNumber = '679018393'; // 
     const message = 'Hola, ¿cómo estás?';
 
     const openWhatsApp = () => {
@@ -12,7 +12,7 @@ const Whatsapp = () => {
 
     return (
         <figure >
-            <button className='w-28 flex fixed top-96 right-4' onClick={openWhatsApp}>
+            <button className='w-28 flex fixed top-3/4  right-0' onClick={openWhatsApp}>
                 <img src={whats} alt={whats} />
             </button>
 
