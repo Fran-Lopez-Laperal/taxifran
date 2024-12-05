@@ -13,17 +13,17 @@ const Button = ({ buttonname, position, margin, side, width, height,lgMargin, lg
 }
 
 Button.propTypes = {
-    buttonname: PropTypes.string.isRequired,
-    position: PropTypes.string.isRequired,
-    margin: PropTypes.string.isRequired,
-    side: PropTypes.string.isRequired,
-    width: PropTypes.string.isRequired,
-    height: PropTypes.string.isRequired,
-    lgMargin: PropTypes.string.isRequired,
-    lgWidth: PropTypes.string.isRequired,
-    lgHeight: PropTypes.string.isRequired,
-    lgText: PropTypes.string.isRequired,
-    text: PropTypes.string.isRequired,
+    buttonname: PropTypes.string,
+    position: PropTypes.string,
+    margin: PropTypes.string,
+    side: PropTypes.string,
+    width: PropTypes.string,
+    height: PropTypes.string,
+    lgMargin: PropTypes.string,
+    lgWidth: PropTypes.string,
+    lgHeight: PropTypes.string,
+    lgText: PropTypes.string,
+    text: PropTypes.string,
 };
 
 

@@ -1,11 +1,53 @@
+import { useState } from "react"
 import Button from "../components/Button"
+import emailjs from 'emailjs-com'
 
 const Contact = () => {
+
+    const [formData, setformData] = useState({
+        name: "",
+        email: "",
+        message: ""
+
+    })
+
+
+    const handleSubmit = async (e) => {
+        e.preventDefault()
+
+        try {
+            const response = await emailjs.sendForm('service_9arwjbn', 'template_x6k8b7e', e.target, 'luKgETKyzUKU2Ynic')
+            if (response.text === "OK") {
+                console.log(response)
+            } else {
+                console.error("Error al obtener los datos");
+            }
+
+        } catch (tryError) {
+            console.error(tryError)
+        }
+
+        setformData({
+            name: "",
+            email: "",
+            message: ""
+        })
+
+    }
+
+
+
+    const handleChange = (e) => {
+        setformData(e.target.value)
+    }
+
+
+
     return (
         <div id="contact">
-            <div className="h-auto bg-colorcontact flex justify-center">
-                <section className="mb-10 mt-10 w-350 shadow-lg p-9 bg-gradient-to-t from-color2contact to-transparent lg:w-1250">
-                    <section className="">
+            <div className="h-auto bg-colorcontact flex justify-center lg:h-650">
+                <section className="lg:flex mb-10 mt-10 w-350 shadow-lg p-9 bg-gradient-to-t from-color2contact to-transparent lg:w-950 lg:mt-32">
+                    <section className="lg:mt-10">
                         <article>
                             <section className="">
                                 <p className="text-2xl font-normal">Haz realidad tus sueños</p>
@@ -37,13 +79,51 @@ const Contact = () => {
                         </article>
                     </section>
 
-                    <section className="mt-10">
+
+
+                    <section className="mt-1 lg:mt-10 lg:ml-20">
                         <p className="font-light mb-5 p-2">Contacta con nosotros si quieres hacer realizar tus sueños o si tienes alguna duda sobre nosotros.</p>
-                        <article className="flex flex-col items-center mb-10">
-                            <input className="mb-3 border rounded hover:border-gray-500 border-gray-300 transition-all duration-500 w-48" type="text" name="" id="" />
-                            <input className="mb-3 border rounded hover:border-gray-500 border-gray-300 transition-all duration-500 w-48" type="text" name="" id="" />
-                            <input className="border rounded hover:border-gray-500 border-gray-300 transition-all duration-500 w-48 h-20" type="text" name="" id="" />
-                            <Button buttonname="ENVIAR" height="h-7" width="w-24" margin="mt-5" side="ml-44" />
+                        <article className=" mb-10 ">
+                            <form className="text-center" action="" onSubmit={handleSubmit}>
+                                <section>
+                                    <input
+                                        className="mb-3 border rounded hover:border-gray-500 border-gray-300 transition-all duration-500 w-48 text-sm p-1 placeholder:text-black lg:h-14 lg:p-5 lg:w-72 lg:text-base"
+                                        type="text"
+                                        value={formData.name}
+                                        onChange={handleChange}
+                                        name="nombre"
+                                        id="nombre"
+                                        placeholder="Su nombre"
+
+                                    />
+
+                                    <input
+                                        className="mb-3 border rounded hover:border-gray-500 border-gray-300 transition-all duration-500 w-48 text-sm p-1 placeholder:text-black lg:h-14 lg:p-5 lg:ml-5 lg:w-72 lg:text-base"
+                                        type="email"
+                                        value={formData.email}
+                                        onChange={handleChange}
+                                        name="mail"
+                                        id="mail"
+                                        placeholder="Su correo electrónico"
+                                    />
+                                </section>
+
+                                <input
+                                    className="border rounded hover:border-gray-500 border-gray-300 transition-all duration-500 w-48 h-20 font-light text-sm text-center placeholder:text-black lg:w-595 lg:text-base lg:h-44"
+                                    type="textarea"
+                                    value={formData.message}
+                                    onChange={handleChange}
+                                    name="mensaje"
+                                    id="mensaje"
+                                    placeholder="¿En que podemos ayudarte?"
+                                />
+                                <section className="lg:flex lg:justify-end">
+                                    <Button type="submit" id="email-send" buttonname="ENVIAR" height="h-7" width="w-24" margin="mt-5" side="ml-44" />
+                                </section>
+
+
+                            </form>
+
                         </article>
 
                     </section>

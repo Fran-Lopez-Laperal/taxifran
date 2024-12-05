@@ -2,7 +2,7 @@ import whats from '../assets/images/5ae21cc526c97415d3213554.png'
 
 const Whatsapp = () => {
     const phoneNumber = '679018393'; // 
-    const message = 'Hola, ¿cómo estás?';
+    const message = 'Hola, quería pedir presupuesto para realizar una reforma';
 
     const openWhatsApp = () => {
         const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
