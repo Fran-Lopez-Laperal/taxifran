@@ -1,20 +1,40 @@
-import { Link } from "react-scroll"
+import logo from '../assets/images/OBRAS.png'
+import LinkNav from "./LinkNav"
+import { Link as Scroll } from 'react-scroll'
 
 const NavBarDesktop = () => {
     return (
         <div>
             <header>
-                <nav>
+                <nav className="flex h-28 p-10 w-11/12">
+                    <span className="flex w-2/3 justify-center items-center">
+                        <img className='h-28' src={logo} alt={logo} />
+                    </span>
 
-                    <ul>
-                        <li>
-                            <Link href="">SERVICIOS</Link>
+                    <ul className="flex w-2/3 ">
+
+                        <li className="w-full h-auto  flex  justify-center items-center">
+                            <Scroll to='inicio' smooth={true} duration={600} offset={450}>
+                                <LinkNav font="font-semibold" nameLink="INICIO" />
+                            </Scroll>
                         </li>
-                        <li>
-                            <Link href="">PROYECTOS</Link>
+
+                        <li className="w-full h-auto  flex  justify-center items-center">
+                            <Scroll to='servicios' smooth={true} duration={600} offset={30}>
+                                <LinkNav font="font-light" nameLink="SERVICIOS" />
+                            </Scroll>
                         </li>
-                        <li>
-                            <Link href="">CONTACTO</Link>
+
+                        <li className="w-full h-auto  flex  justify-center items-center">
+                            <Scroll to='metodologia' smooth={true} duration={600} offset={-100} >
+                                <LinkNav font="font-light" nameLink="¿COMO LO HACEMOS?" />
+                            </Scroll>
+                        </li>
+
+                        <li className="w-full h-auto  flex  justify-center items-center">
+                            <Scroll to='contacto' smooth={true} duration={600} offset={450}>
+                                <LinkNav font="font-light" nameLink="CONTACTO" />
+                            </Scroll>
                         </li>
                     </ul>
 

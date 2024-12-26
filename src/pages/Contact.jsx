@@ -44,8 +44,8 @@ const Contact = () => {
 
 
     return (
-        <div id="contact">
-            <div className="h-auto bg-colorcontact flex justify-center lg:h-650">
+        <div id="contacto">
+            <div className="h-auto bg-colorcontact flex justify-center lg:h-850">
                 <section className="lg:flex mb-10 mt-10 w-350 shadow-lg p-9 bg-gradient-to-t from-color2contact to-transparent lg:w-950 lg:mt-32">
                     <section className="lg:mt-10">
                         <article>

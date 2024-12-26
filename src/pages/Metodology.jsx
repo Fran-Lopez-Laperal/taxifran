@@ -5,7 +5,7 @@ import Metods from '../components/Metods'
 
 const Metodology = () => {
     return (
-        <div className='mt-64'>
+        <div className='mt-64' id='metodologia'>
             <figure className='flex flex-col justify-center items-center mb-64'>
                 <img className='absolute object-cover  h-850 border opacity-80 lg:w-full' src={salon} alt={salon} />
                 <section className='lg:flex flex flex-col items-center justify-center'>

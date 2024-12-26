@@ -3,11 +3,11 @@ import Button from "../components/Button"
 
 const Home = () => {
   return (
-    <div>
+    <div id="inicio">
       <section className="relative ">
         <article>
           <figure className="w-full ">
-            <img className="h-650 object-cover w-full lg:h-750" src={image1} alt="" />
+            <img className="h-650 object-cover w-full lg:h-870" src={image1} alt="" />
           </figure>
         </article>
         <section className="section">

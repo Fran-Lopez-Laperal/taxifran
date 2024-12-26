@@ -20,9 +20,9 @@ const CardsMetod = ({ img, titlecard, textcard, step, hideImgOnMobile }) => {
 
 CardsMetod.propTypes = {
     img: PropTypes.string,
-    titlecard: PropTypes.string.isRequired,
-    textcard: PropTypes.string.isRequired,
-    step: PropTypes.string.isRequired,
+    titlecard: PropTypes.string,
+    textcard: PropTypes.string,
+    step: PropTypes.string,
     hideImgOnMobile: PropTypes.bool
 }
 

@@ -3,7 +3,7 @@ import cocina from '../assets/images/cocina.jpg'
 
 const Information = () => {
     return (
-        <div className=''>
+        <div id='servicios'>
             <section className="p-5 lg:flex lg:justify-center" >
 
 

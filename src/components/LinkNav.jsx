@@ -1,16 +1,16 @@
 import PropTypes from 'prop-types';
-import { Link } from 'react-scroll';
 
-const LinkNav = ({ nameLink, onCloseMenu }) => {
+const LinkNav = ({ nameLink, onCloseMenu, font }) => {
   return (
-    <li onClick={onCloseMenu} className="h-20 font-semibold flex justify-center items-center">
-      <Link>{nameLink}</Link>
-    </li>
+    <section onClick={onCloseMenu} className={` ${font } h-20  flex justify-center items-center`}>
+    {nameLink}
+    </section>
   );
 };
 
 LinkNav.propTypes = {
   nameLink: PropTypes.string,
+  font: PropTypes.string,
   onCloseMenu: PropTypes.func,
 };
 
