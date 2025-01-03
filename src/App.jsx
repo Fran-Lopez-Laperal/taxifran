@@ -2,42 +2,29 @@ import './App.css'
 import Contact from './pages/Contact'
 import Footer from './components/Footer'
 import Information from './components/Information'
-import NavBarMovil from './components/NavBarMovil'
 import Home from './pages/Home'
 import Metodology from './pages/Metodology'
 import Whatsapp from './pages/Whatsapp'
 import { useEffect, useState } from 'react'
 import NavBarDesktop from './components/NavBarDesktop'
+import NavBarMovil from './components/NavBarMovil'
 
 function App() {
-
-  const [showNavMovile, setShowNavMovile] = useState(false)
+  const [showNav, setShowNav] = useState(false)
 
   useEffect(() => {
-    const responsiveMovil = () =>
-      window.innerWidth < 420
-        ? setShowNavMovile(true)
-        : setShowNavMovile(false);
+    const responsiveMovil = () => window.innerWidth > 480 ? setShowNav(true) : setShowNav(false);
     responsiveMovil();
-    window.addEventListener("resize", () => responsiveMovil());
+    window.addEventListener("resize", () => responsiveMovil())
 
-
-  }, []);
-
+  })
 
   return (
     <div>
       <main>
-
+      {showNav ?
+        <NavBarDesktop /> : <NavBarMovil />}
       </main>
-      {showNavMovile ? (
-        <NavBarMovil />
-      )
-        :
-        (
-          <NavBarDesktop/>
-        )}
-
       <div>
         <Home />
         <Information />

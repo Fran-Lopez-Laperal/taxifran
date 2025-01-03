@@ -1,0 +1,24 @@
+.line {
+  width: 30px;
+  height: 4px;
+  background-color: black;
+  margin: 3px 0;
+  border-radius: 2px;
+  transition: all 0.3s ease-in-out;
+}
+
+.line.expand {
+  width: 40px; /* Expande la línea al hacer clic */
+}
+
+.line.rotate-45 {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.line.-rotate-45 {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+.line.opacity-0 {
+  opacity: 0;
+}

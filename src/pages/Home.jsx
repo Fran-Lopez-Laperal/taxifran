@@ -11,9 +11,9 @@ const Home = () => {
           </figure>
         </article>
         <section className="section">
-          <article className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 h-350 w-320 lg:w-1250 lg:h-60 bg-gray-200 bg-opacity-60 shadow-lg p-5 ">
+          <article className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 h-400 w-320 lg:w-1250 lg:h-60 bg-gray-200 bg-opacity-75 rounded shadow-lg p-5 ">
             <section className="w-full ">
-              <div className="text-3xl lg:text-4xl p-1 lg:font-medium  flex flex-col items-end lg:flex lg:flex-row lg:justify-end">
+              <div className="text-2xl lg:text-4xl p-1 lg:font-medium  flex flex-col items-end lg:flex lg:flex-row lg:justify-end">
                 <p className="lg:mr-4  text-blue-700">REFORMAS TELMO</p>
                 <p className="lg:mr-4">Proyectos y</p>
                 <p className="">obras</p>

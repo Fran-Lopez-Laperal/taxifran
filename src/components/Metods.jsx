@@ -8,10 +8,9 @@ const Metods = () => {
         return (
                 <div>
                         <section className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 lg:gap-1 lg:mt-10'>
-                                <CardsMetod step='1' img={metod1} hideImgOnMobile={true} titlecard='Visita inicial' textcard='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, omnis.
-                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, omnis
-                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, omnis
-                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, omnis'
+                                <CardsMetod step='1' img={metod1} hideImgOnMobile={true} titlecard='Visita inicial' textcard='Realizamos una indispensable visita inicial para
+                                 conocer de primera mano las necesidades, gustos y estilo de vida de nuestros clientes. Posteriormente, pasamos a recoger las mediciones, toma 
+                                 de datos, estado de las instalaciones, materiales y elementos constructivos visibles, para analizar las necesidades de cada espacio.'
 
                                 />
                                 <CardsMetod step='2' img={metod2} titlecard='Proyecto y ppresupuesto' textcard='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, omnis.

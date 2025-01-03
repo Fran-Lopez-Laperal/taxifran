@@ -12,7 +12,7 @@ const CardsMetod = ({ img, titlecard, textcard, step, hideImgOnMobile }) => {
                     <p className='relative top-6 text-shadow-custom text-150 text-white font-semibold'>{step}</p>
                     <p className='text-white font-bold text-lg mb-6'>{titlecard}</p>
                 </section>
-                <p className='text-white p-5'>{textcard}</p>
+                <p className='text-white p-5 text-md font-extralight'>{textcard}</p>
             </section>
         </article>
     )

@@ -6,7 +6,6 @@ const Information = () => {
         <div id='servicios'>
             <section className="p-5 lg:flex lg:justify-center" >
 
-
                 <article className='lg:flex lg:w-1250 lg:justify-center'>
                     <section className="flex flex-col w-full items-center">
                         <header className="mb-10 p-5">
@@ -71,7 +70,7 @@ const Information = () => {
                 </article>
             </section>
             <section className='flex justify-center'>
-                <div className=" border-t-2 border-blue-300 w-64 z-10"></div>
+                <div className=" border-t-2 border-blue-600 w-96"></div>
             </section>
 
         </div>

@@ -12,7 +12,7 @@ const Whatsapp = () => {
 
     return (
         <figure >
-            <button className='w-28 flex fixed top-3/4  right-0' onClick={openWhatsApp}>
+            <button className='w-40 flex fixed top-3/4  -right-5' onClick={openWhatsApp}>
                 <img src={whats} alt={whats} />
             </button>
 

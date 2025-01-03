@@ -19,5 +19,5 @@ export function Nav() {
     };
   }, []);
 
-  return <section>{windowWidth < 1024 ? <NavBarMovil/> : <NavBarDesktop/>}</section>;
+  return <section>{windowWidth > 1024 ? <NavBarMovil/> : <NavBarDesktop/>}</section>;
 }
