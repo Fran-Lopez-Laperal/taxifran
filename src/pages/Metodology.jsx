@@ -1,6 +1,7 @@
 import salon from '../assets/images/cocina2.jpg'
 import Button from '../components/Button'
 import Metods from '../components/Metods'
+import { Link as Scroll } from 'react-scroll'
 
 
 const Metodology = () => {
@@ -18,7 +19,10 @@ const Metodology = () => {
                         </p>
                     </div>
                     <section className='lg:flex'>
-                        <Button buttonname="¿HABLAMOS?" text='text-xl' margin="mt-10" lgMargin='lg:mt-72' side="ml-72" width='w-34' height='h-auto' lgHeight='w-48' lgWidth='h-16' lgText='lg:text-2xl'  />
+                        <Scroll to='contacto' smooth={true} duration={600}>
+                            <Button buttonname="¿HABLAMOS?" text='text-xl' margin="mt-10" lgMargin='lg:mt-72' side="ml-72" width='w-34' height='h-auto' lgHeight='w-48' lgWidth='h-16' lgText='lg:text-2xl' />
+                        </Scroll>
+
                     </section>
                 </section>
 

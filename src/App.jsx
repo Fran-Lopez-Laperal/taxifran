@@ -1,8 +1,8 @@
 import './App.css'
 import Contact from './pages/Contact'
-import Footer from './components/Footer'
 import Information from './components/Information'
 import Home from './pages/Home'
+import Footer from './pages/Footer'
 import Metodology from './pages/Metodology'
 import Whatsapp from './pages/Whatsapp'
 import { useEffect, useState } from 'react'
@@ -13,7 +13,7 @@ function App() {
   const [showNav, setShowNav] = useState(false)
 
   useEffect(() => {
-    const responsiveMovil = () => window.innerWidth > 480 ? setShowNav(true) : setShowNav(false);
+    const responsiveMovil = () => window.innerWidth > 1024 ? setShowNav(true) : setShowNav(false);
     responsiveMovil();
     window.addEventListener("resize", () => responsiveMovil())
 

@@ -70,7 +70,7 @@ const Information = () => {
                 </article>
             </section>
             <section className='flex justify-center'>
-                <div className=" border-t-2 border-blue-600 w-96"></div>
+                <div className=" border-t-2 border-blue-800 w-80"></div>
             </section>
 
         </div>

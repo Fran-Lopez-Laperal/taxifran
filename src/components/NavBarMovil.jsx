@@ -21,27 +21,27 @@ const NavBarMovil = () => {
                 {!showMenu ? (
                   <li className="flex items-center">
                     <button
-                      className="ml-2 h-7 flex flex-col justify-evenly hover:bg-gray-200 p-1 rounded transition duration-300 "
+                      className="ml-1 h-7 flex flex-col justify-evenly p-1 rounded transition duration-300 "
                       onClick={handleShowMenu}
                     >
                       {/* Líneas del botón de menú */}
-                      <div className="w-7 h-1 bg-black transition-transform duration-300 ease-in-out hover:bg-gray-600"></div>
-                      <div className="w-7 h-1 bg-black transition-transform duration-300 ease-in-out hover:bg-gray-600"></div>
-                      <div className="w-7 h-1 bg-black transition-transform duration-300 ease-in-out hover:bg-gray-600"></div>
+                      <div className="w-7 h-1 bg-black transition-transform duration-300 ease-in-out"></div>
+                      <div className="w-7 h-1 bg-black transition-transform duration-300 ease-in-out"></div>
+                      <div className="w-7 h-1 bg-black transition-transform duration-300 ease-in-out"></div>
                     </button>
                   </li>
                 )
                   :
                   (
-                    <li className="flex items-center">
-                      <i onClick={handleShowMenu} className="fa fa-times text-4xl mt-1 w-11 flex justify-center p-1 " aria-hidden="true"></i>
+                    <li className="flex justify-end">
+                      <i onClick={handleShowMenu} className="fa fa-times -ml-1  text-4xl mt-1 w-11 flex justify-center p-1" aria-hidden="true"></i>
                     </li>
                   )}
 
 
 
                 <li className="ml-14 -mt-2">
-                  <Scroll>
+                  <Scroll to="inicio">
                     <img className="h-16" src={logo} alt={logo} />
                   </Scroll>
 

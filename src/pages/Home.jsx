@@ -1,5 +1,6 @@
 import image1 from "../assets/images/layout.jpg"
 import Button from "../components/Button"
+import { Link as Scroll } from "react-scroll"
 
 const Home = () => {
   return (
@@ -31,7 +32,10 @@ const Home = () => {
               </div>
             </section>
           </article>
-          <Button buttonname="CONTACTO" position="absolute" margin="bottom-10" side="left-2/3" width="w-36" height="h-10"/>
+          <Scroll to="contacto" smooth={true} duration={600}>
+            <Button buttonname="CONTACTO" position="absolute" margin="bottom-10" side="left-2/3" width="w-36" height="h-10" />
+          </Scroll>
+
         </section>
 
       </section>
