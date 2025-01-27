@@ -4,10 +4,10 @@ import { useState } from 'react'
 import InfoCards from '../components/InfoCards'
 
 const Footer = () => {
-    const [showCards, setShowCards] = useState(null);  // Mantener el estado para el componente que debe mostrarse
+    const [showCards, setShowCards] = useState(null);  
 
     const handleShowCards = (id) => {
-        // Si ya está abierto el componente, cerrarlo. Si no, abrir el correspondiente.
+     
         setShowCards(prevState => (prevState === id ? null : id));
     };
 
@@ -29,11 +29,11 @@ const Footer = () => {
                     </article>
                 </section>
 
-                {/* Mostrar el InfoCards solo si hay un componente seleccionado */}
+               
                 {showCards && (
                     <InfoCards 
                         closeCards={() => setShowCards(null)} 
-                        selectedCardId={showCards}  // Pasamos el id del componente seleccionado
+                        selectedCardId={showCards}  
                     />
                 )}
 
