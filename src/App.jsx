@@ -1,6 +1,6 @@
 import './App.css'
 import Contact from './pages/Contact'
-import Information from './components/Information'
+import Information from './pages/Information'
 import Home from './pages/Home'
 import Footer from './pages/Footer'
 import Metodology from './pages/Metodology'

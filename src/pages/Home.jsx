@@ -12,20 +12,20 @@ const Home = () => {
           </figure>
         </article>
         <section className="section">
-          <article className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 h-400 w-320 lg:w-1250 lg:h-60 bg-gray-200 bg-opacity-75 rounded shadow-lg p-5 ">
+          <article className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 h-400 w-320 md:w-600 lg:w-950  lg:h-48 bg-gray-200 bg-opacity-75 rounded shadow-lg p-5 ">
             <section className="w-full ">
-              <div className="text-2xl lg:text-4xl p-1 lg:font-medium  flex flex-col items-end lg:flex lg:flex-row lg:justify-end">
+              <div className="text-2xl md:text-3xl lg:text-4xl p-1 md:font-normal flex flex-col items-end lg:flex lg:flex-row lg:justify-end">
                 <p className="lg:mr-4  text-blue-700">REFORMAS TELMO</p>
                 <p className="lg:mr-4">Proyectos y</p>
                 <p className="">obras</p>
               </div>
 
-              <div className="text-2xl p-1 font-light flex flex-col items-end -tracking-tighter lg:text-3xl lg:flex lg:flex-row lg:justify-end lg:font-light">
-                <p className="lg:mr-4">Diseñamos ambientes |</p>
-                <p className="lg:mr-4">únicos, renovamos tu |</p>
+              <div className="text-2xl md:text-3xl p-1 font-light flex flex-col items-end -tracking-tighter lg:text-3xl lg:flex lg:flex-row lg:justify-end lg:font-light">
+                <p className="lg:mr-4">Diseñamos ambientes </p>
+                <p className="lg:mr-4">| únicos, renovamos tu </p>
                 <p className="">vida</p>
               </div>
-              <div className="text-xl  font-extralight flex flex-col items-end tracking-[0.25rem] lg:flex lg:flex-row lg:justify-end">
+              <div className="text-xl md:text-2xl  font-extralight flex flex-col items-end tracking-[0.25rem] lg:flex lg:flex-row lg:justify-end">
                 <p className="lg:mr-4">Todo tipo de</p>
                 <p className="lg:mr-4">reformas para</p>
                 <p>tu espacio</p>

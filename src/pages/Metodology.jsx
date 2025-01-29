@@ -8,7 +8,7 @@ const Metodology = () => {
     return (
         <div className='mt-64' id='metodologia'>
             <figure className='flex flex-col justify-center items-center mb-64'>
-                <img className='absolute object-cover  h-850 border opacity-80 lg:w-full' src={salon} alt={salon} />
+                <img className='absolute object-cover  h-850 border opacity-80 md:w-full' src={salon} alt={salon} />
                 <section className='lg:flex flex flex-col items-center justify-center'>
                     <div className='relative w-80 bg-gray-200 bg-opacity-70 shadow-lg p-7 shadow-black lg:w-800 lg:h-72 lg:flex lg:flex-col lg:justify-center'>
                         <p className='text-2xl lg:text-4xl'>Nuestra metodología de trabajo</p>
@@ -31,8 +31,12 @@ const Metodology = () => {
 
 
 
-            <section className='mt-[-110px]'>
+            <section className='mt-[-110px] mb-10 sm:mb-0'>
                 <Metods />
+            </section>
+
+            <section className='flex justify-center mb-10'>
+                <div className=" border-t-2 border-blue-800 w-80 md:mt-10 md:w-600 lg:w-1250"></div>
             </section>
 
         </div>

@@ -6,12 +6,12 @@ const NavBarDesktop = () => {
     return (
         <div>
             <header>
-                <nav className="flex h-28 p-10 w-11/12">
-                    <span className="flex w-2/3 justify-center items-center">
+                <nav className="flex h-28 p-10">
+                    <span className="flex justify-center items-center">
                         <img className='h-28' src={logo} alt={logo} />
                     </span>
 
-                    <ul className="flex w-2/3 ">
+                    <ul className="flex justify-evenly w-full items-center">
 
                         <li className="w-full h-auto  flex  justify-center items-center">
                             <Scroll to='inicio' smooth={true} duration={600} offset={450}>

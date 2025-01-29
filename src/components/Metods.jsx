@@ -7,7 +7,7 @@ import CardsMetod from '../components/CardsMetod'
 const Metods = () => {
         return (
                 <div>
-                        <section className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 lg:gap-1 lg:mt-10'>
+                        <section className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 lg:gap-1 lg:p-1 lg:mt-10'>
 
                                 <CardsMetod
                                         step='1'

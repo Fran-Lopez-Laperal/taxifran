@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 const LinkNav = ({ nameLink, onCloseMenu, font }) => {
   return (
-    <section onClick={onCloseMenu} className={` ${font } h-20  flex justify-center items-center`}>
+    <section onClick={onCloseMenu} className={` ${font } cursor-pointer h-20  flex justify-center items-center`}>
     {nameLink}
     </section>
   );
