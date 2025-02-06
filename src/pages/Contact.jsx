@@ -16,7 +16,7 @@ const Contact = () => {
     const handleSubmit = async (e) => {
         e.preventDefault()
 
-        if(formData.name === "" || formData.email === "" || formData.message === ""){
+        if (formData.name === "" || formData.email === "" || formData.message === "") {
             alert("Por favor, rellene todos los campos")
             return
         }
@@ -114,15 +114,15 @@ const Contact = () => {
                                     />
                                 </section>
 
-                                <input
-                                    className="border rounded hover:border-gray-500 border-gray-300 transition-all duration-500 w-48 h-20 font-light text-sm text-center placeholder:text-black md:w-full md:h-44 lg:w-595 lg:text-base lg:h-44"
-                                    type="textarea"
+                                <textarea
+                                    className="border p-3 rounded hover:border-gray-500 border-gray-300 transition-all duration-500 w-48 h-20 font-light text-sm text-center placeholder:text-black md:w-full md:h-44 lg:w-595 lg:text-base lg:h-44"
                                     value={formData.message}
                                     onChange={handleChange}
                                     name="message"
                                     id="mensaje"
-                                    placeholder="¿En que podemos ayudarte?"
+                                    placeholder="¿En qué podemos ayudarte?"
                                 />
+
                                 <section className="lg:flex lg:justify-end">
                                     <Button type="submit" id="email-send" buttonname="ENVIAR" height="h-7" width="w-24" margin="mt-5" side="ml-44" />
                                 </section>
