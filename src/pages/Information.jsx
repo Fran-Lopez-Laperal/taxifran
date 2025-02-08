@@ -6,7 +6,7 @@ const Information = () => {
         <div id='servicios'>
             <section className="p-5 lg:flex lg:justify-center" >
 
-                <article className='lg:flex lg:w-1250 lg:justify-center'>
+                <article className='lg:flex lg:w-1250 gap-9 lg:justify-center'>
                     <section className="flex flex-col w-full items-center">
                         <header className="mb-10 p-5">
                             <article>
@@ -63,8 +63,8 @@ const Information = () => {
                         </article>
                     </section>
                     <section className='w-full flex justify-center mt-10'>
-                        <figure className='shadow-black shadow-lg'>
-                            <img className='h-96 w-80 md:w-595 md:h-750 rounded-sm  lg:h-750 lg:w-600 ' src={cocina} alt={cocina} />
+                        <figure className='shadow-black shadow-lg rounded-sm '>
+                            <img className='h-96 w-80 md:w-595 md:h-750 rounded-sm  lg:h-850 lg:w-600 ' src={cocina} alt={cocina} />
                         </figure>
                     </section>
                 </article>
