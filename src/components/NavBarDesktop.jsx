@@ -1,4 +1,4 @@
-import logo from '../assets/images/OBRAS.png'
+import logo from '../assets/images/LOGO-TAXI.png'
 import LinkNav from "./LinkNav"
 import { Link as Scroll } from 'react-scroll'
 
@@ -6,9 +6,9 @@ const NavBarDesktop = () => {
     return (
         <div>
             <header>
-                <nav className="flex h-28 p-10">
+                <nav className="flex h-28 p-10 bg-colornav">
                     <span className="flex justify-center items-center">
-                        <img className='h-28' src={logo} alt={logo} />
+                        <img className='h-28 p-1' src={logo} alt={logo} />
                     </span>
 
                     <ul className="flex justify-evenly w-full items-center">

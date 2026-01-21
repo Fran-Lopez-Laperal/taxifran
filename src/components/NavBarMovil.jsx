@@ -1,6 +1,6 @@
 import { useState } from "react";
 import LinkNav from "./LinkNav";
-import logo from '../assets/images/OBRAS.png'
+import logo from '../assets/images/LOGO-TAXI.png'
 import { Link as Scroll } from "react-scroll";
 
 const NavBarMovil = () => {
@@ -16,7 +16,7 @@ const NavBarMovil = () => {
         <nav className="h-14 w-full">
           <menu className=" w-full">
             <section className="w-full">
-              <ul className="flex bg-white w-full">
+              <ul className="flex bg-colornav w-full">
 
                 {!showMenu ? (
                   <li className="flex items-center">
@@ -40,9 +40,9 @@ const NavBarMovil = () => {
 
 
 
-                <li className="ml-14 -mt-2">
+                <li className="ml-24">
                   <Scroll to="inicio">
-                    <img className="h-16" src={logo} alt={logo} />
+                    <img className="h-16 p-1" src={logo} alt={logo} />
                   </Scroll>
 
                 </li>
@@ -52,9 +52,9 @@ const NavBarMovil = () => {
 
 
             {showMenu && (
-              <section className="flex flex-col items-center  h-full">
+              <section className="flex flex-col items-center bg-slate-500   h-full">
 
-                <ul className=" fixed h-full transition-all duration-500 ease-in-out w-full  shadow-md text-center border-t-2 border-black bg-white z-10">
+                <ul className=" fixed h-full transition-allduration-500 ease-in-out w-full  shadow-md text-center border-t-2 border-black bg-colornav z-10">
                   <Scroll to='inicio' smooth={true} duration={600} offset={610}>
                     <LinkNav onCloseMenu={handleShowMenu} nameLink="SERVICIOS" />
                   </Scroll>

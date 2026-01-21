@@ -1,5 +1,4 @@
-import insta from '../assets/images/insta.jpg'
-import facebook from '../assets/images/facebook.jpg'
+
 import { useState } from 'react'
 import InfoCards from '../components/InfoCards'
 
@@ -37,19 +36,7 @@ const Footer = () => {
                 )}
 
                 <section className="bg-black h-auto flex flex-col items-center justify-center">
-                    <p className="text-white font-light text-sm md:text-xl mt-10">©2025  Obras y Reformas Telmo</p>
-                    <section className="flex items-center mt-5 justify-evenly w-full mb-10 sm:mb-28">
-                        <figure>
-                            <a href="https://www.instagram.com/reformas_telmo_sl/">
-                                <img className='h-10 w-10' src={insta} alt="Instagram" />
-                            </a>
-                        </figure>
-                        <figure>
-                            <a href="https://www.facebook.com/obrasereformastelmo?locale=es_ES">
-                                <img className='h-14 w-14' src={facebook} alt="Facebook" />
-                            </a>
-                        </figure>
-                    </section>
+                    <p className="text-white font-light text-sm md:text-xl mt-10">©2025  TAXI FRAN</p>
                 </section>
             </footer>
         </div>

@@ -1,7 +1,6 @@
-import metod1 from '../assets/images/metod1.jpg'
-import metod2 from '../assets/images/metod2.jpg'
-import metod3 from '../assets/images/metod3.jpg'
-import metod5 from '../assets/images/metod5.jpg'
+import metod1 from '../assets/images/reloj.jpeg'
+import metod2 from '../assets/images/pago.webp'
+import metod3 from '../assets/images/año.jpeg'
 import CardsMetod from '../components/CardsMetod'
 
 const Metods = () => {
@@ -13,40 +12,28 @@ const Metods = () => {
                                         step='1'
                                         img={metod1}
                                         hideImgOnMobile={true}
-                                        titlecard='Visita inicial'
-                                        textcard1='Realizamos una indispensable visita inicial para
-                                        conocer de primera mano las necesidades, gustos y estilo de vida de nuestros clientes. Posteriormente, pasamos a recoger las mediciones, toma 
-                                        de datos, estado de las instalaciones, materiales y elementos constructivos visibles, para analizar las necesidades de cada espacio.'
+                                        titlecard='Siempre puntuales'
+                                        textcard1='No hacemos esperar a nuestros clientes, por ello, nuestro taxi en Bertamiráns llega siempre unos minutos antes de la hora indicada al lugar acordado.'
                                 />
 
                                 <CardsMetod
                                         step='2'
-                                        img={metod2}
-                                        titlecard='Proyecto y ppresupuesto'
-                                        textcard1='Generamos los planos de planta del inmueble a reformar y la propuesta de reforma, compuesta por el proyecto, planos de planta reformada y presupuesto detallado, en base a la información facilitada por el cliente.'
-                                        textcard2='En este punto asesoramos al cliente sobre los materiales a instalar para alcanzar sus expectativas cualitativas (calidades, durabilidad, eficiencia energética, precios), explicando cada una de las partidas presupuestarias al detalle y plazos de ejecución.'
+                                        img={metod1}
+                                        titlecard='Facilidades de pago'
+                                        textcard1='Ofrecemos diversas opciones de pago para adaptarnos a las necesidades de nuestros clientes, mediante Bizum, efectivo o tarjeta de crédito.'
                                 />
 
                                 <CardsMetod
                                         step='3'
-                                        img={metod3}
-                                        titlecard='Formalización y plazos de obra'
-                                        textcard1='Una vez elegido el proyecto a ejecutar, donde se detallan los
-                                        trabajos a realizar, materiales utilizados y plazos de ejecución'
+                                        img={metod2}
+                                        titlecard='Los 365 días de año'
+                                        textcard1='Nuestro servicio está disponible todos los días del año, incluyendo festivos. Nos adaptamos a tus necesidades y horarios, garantizando un taxi siempre a tu disposición.'
                                 />
 
                                 <CardsMetod
-                                        step='4'
-                                        img={metod5}
-                                        titlecard='Ejecución de la obra'
-                                        textcard1='Supervisamos todos los trabajos diarios planificados en obra así como
-                                        la correcta instalación de los materiales con el objetivo de evitar deficiencias
-                                        y alcanzar la excelencia del proyecto. Cumplimiento de plazos y ajustándonos al
-                                        presupuesto establecido.Una vez ejecutado el proyecto de reforma integral, y 
-                                        tras una exhaustiva limpieza general del inmueble, realizamos una inspección 
-                                        integra y detallada, verificando con todo detalle los trabajos efectuados, antes
-                                        de su entrega.'
+                                        img={metod3}
                                 />
+
 
                         </section>
 

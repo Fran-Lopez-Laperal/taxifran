@@ -43,7 +43,9 @@ export default {
       colors: {
         'colorfooter': '#2D2D2D',
         'colorcontact': '#EAE9E4',
-        'color2contact': '#efebe1'
+        'color2contact': '#efebe1',
+        'colornav':'#f1b721',
+        'colorbghome':'#f1b721'
 
       },
 
