@@ -6,7 +6,7 @@ import { Link as Scroll } from 'react-scroll'
 
 const Metodology = () => {
     return (
-        <div className='mt-44' id='metodologia'>
+        <div className='mt-44'   id='metodologia'>
             <figure className='flex flex-col justify-center items-center mb-64'>
                 <img className='absolute object-cover  h-850 border opacity-80 md:w-full' src={imagen} alt={imagen} />
                 <section className='lg:flex flex flex-col items-center justify-center'>
