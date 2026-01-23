@@ -33,7 +33,7 @@ const Metodology = () => {
                 <Metods />
             </section>
 
-            <section className='flex  justify-center mb-10'>
+            <section className='flex  rajustify-center mb-10'>
                 <div className=" border-t-2 border-colornav w-80 md:mt-10 md:w-600 lg:w-1250"></div>
             </section>
 
